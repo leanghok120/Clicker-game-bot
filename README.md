@@ -2,8 +2,8 @@
 This python program is a bot that can play any clicker games with just a couple of tweaks by the user depending on the clicker game.
 
 # Packages
-pip install pyautogui
-pip install keyboard
+1. pip install pyautogui
+2. pip install keyboard
 
 # How to use
 1. Get the coords of the object u want to click.
