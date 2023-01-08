@@ -29,7 +29,7 @@ def auto_upgrade2(x, y): # This function has to be named differently from the fi
 while keyboard.is_pressed("q") == False:
     auto_click(x=805, y=487) # Change the x and y coordinates to the coordinates of the object you want to click
     if keyboard.is_pressed("c"):
-        auto_upgrade(x=356, y=360)
+        auto_upgrade(x=356, y=360) # Change the x and y coordinates to the coordinates of the upgrade you want to click
     if keyboard.is_pressed("x"):
-        auto_upgrade2(x=333, y=442)
+        auto_upgrade2(x=333, y=442) # Change the x and y coordinates to the coordinates of the upgrade you want to click
 print("Bot: Disabled")
