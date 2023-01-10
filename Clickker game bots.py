@@ -5,6 +5,7 @@ import keyboard
 import random
 import win32api, win32con
 
+
 print("Bot: Enabled")
 # Waits 3 seconds before enabling the bot
 time.sleep(3)
