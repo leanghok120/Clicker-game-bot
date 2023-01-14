@@ -14,7 +14,7 @@ root.title("Clicker Game Bot")
 
 # Bot Features
 # Click
-def click(x, y)
+def click(x, y):
     win32api.SetCursorPos((x, y))
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0)
     time.sleep(0.000001)  # This pauses the script for 0.1 seconds
