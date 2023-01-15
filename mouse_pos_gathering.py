@@ -21,6 +21,3 @@ def cords():
         time.sleep(0.5)
     root.mainloop()
     print("Coordinates Gathering: Disabled")
-
-
-cords()
